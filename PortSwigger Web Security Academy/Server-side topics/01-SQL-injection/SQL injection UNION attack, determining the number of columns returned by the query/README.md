@@ -22,12 +22,11 @@ When we enumerated "[INDEX]" we can see items order changes every time. Let's di
 - 1 - first column - **index** in table
 - 2 - Name. Sorting by name
 - 3 - Price.
-- 4 "External Server Error"
+- 4 - "External Server Error"
+
 URL <https://foo.web-security-academy.net/filter?category=Lifestyle'+ORDER+BY+4--> - causes "Internal Server Error"
 
-> Columns - 4
-
-we say to website: show me items in **category** - **Food & Drink** or **True**.
+> Columns - 3
 
 UNION keyword can be used to retrieve data from other tables within the database. This results in an SQL injection UNION attack.
 
