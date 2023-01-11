@@ -22,7 +22,7 @@ When we enumerated "[INDEX]" we can see items order changes every time. Let's di
 - 1 - first column - **index** in table
 - 2 - Name. Sorting by name
 - 3 - Price.
-- 4 - "External Server Error"
+- 4 - "Internal Server Error"
 
 URL <https://foo.web-security-academy.net/filter?category=Lifestyle'+ORDER+BY+4--> - causes "Internal Server Error"
 
