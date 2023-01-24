@@ -1,10 +1,9 @@
-## SQL injection attack, querying the database type and version on Oracle
+# SQL injection attack, querying the database type and version on Oracle
 
 ### Lab description
 This lab contains an SQL injection vulnerability in the product category filter. You can use a UNION attack to retrieve the results from an injected query. 
 
 **Goal:** display the database version string. 
-#### difficulty: APPRENTICE
 
 ---
 
